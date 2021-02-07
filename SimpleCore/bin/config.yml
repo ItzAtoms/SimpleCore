@@ -1,0 +1,37 @@
+config:
+#General placeholders - {player}
+   chunkbuster:
+      item:
+         name: "&bChunk Buster"
+         lore:
+          - "&3An acient weapon"
+          - "&3Destroys everything inside designated chunk(s)"
+         lore-identifier: "&c&lBe extremely careful where you put this."
+      allowed:
+         ally: false
+         enemy: false
+         neutral: false
+         own: true
+         safezone: false
+         truce: false
+         warzone: false
+         wilderness: true
+      messages:
+         already: "&cOnly one buster can be active at a time!"
+         deny: "&c&lHey! You can't do that here!"
+         deny-lockdown: "&cBusters are currently on lockdown!"
+         deny-world-blacklist: "&cBusters are disabled on this world!"
+         give-target-needed: "&cInvalid target!"
+         lockdown-on: "&cBusters are now disabled!"
+         lockdown-off: "&aBusters are now enabled!"
+         use: "&cChunkbuster is now active! Glass layers are applied, removed after 10s!"
+         #Coming soon
+         broadcast:
+           - "&7-----------------------------"
+           - ""
+           - "&c&l    Chunk Buster Activated!"
+           - "&c&l    By:&a {player}"
+           - ""
+           - "&7------------------------------"
+      world-blacklist:
+         - world_nether

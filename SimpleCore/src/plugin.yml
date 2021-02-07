@@ -1,0 +1,11 @@
+name: SimpleCore
+main: atoms.simple.Core
+version: 1.0
+author: ItzAtoms
+depend: [Factions]
+softdepend: [WorldGuard]
+commands:
+   chunk:
+      description: Get chunkbuster
+   master:
+      description: open master menu
